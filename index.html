@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ACME </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+
+
+	nav{
+		width:960px;
+		font-size: 35px;
+		color:gray;
+		font-size: Arial;
+		text-align: right;
+	}
+	nav ul{
+		width:826px;
+	}
+	nav ul li{
+		padding: 10px;
+		display: inline-block;
+		list-style: none;
+	}
+
+	.image_center{
+		margin:0 auto;
+		text-align: center;
+	}
+	body{
+		width: 960px;
+	}
+	.title{
+		font-size: 30px;
+	}
+	.wrapper{
+		width: 960px;
+	}
+	.wrapper div{
+		width: 350px;
+		text-align: justify;
+		color: gray;	
+		padding: 40px;
+		margin:0 auto;
+		margin-left:40px;
+	}
+	.col1{
+		
+		float:left;
+	}
+	.col2{
+		width: 450px;
+		float:left;
+	}
+	
+
+@media all and (max-width: 401px){ 
+
+	body{
+		max-width: 380px;
+	}
+
+	#img1{
+		margin: 0 auto;
+	}
+
+	nav{
+	font-size: 35px;
+	color:gray;
+	font-size: Arial;
+	text-align: left;
+	}
+
+	img{
+		text-align: center;
+		margin: 0 auto;
+	}
+	nav ul{
+		padding: 0px;
+	}
+	nav ul li{
+		list-style: none;
+		display: block;
+		margin: 0;
+	}
+	.image_center{
+		display: none;
+	}
+	
+	.title{
+		font-size: 30px;
+	}
+	.wrapper{
+		width: 380px;
+	}
+	.wrapper div {
+		padding: 2%;
+		width: 380px;
+		text-align: justify;
+		color: gray;	
+		margin:0 auto;
+	}
+	.wrapper div p {
+		padding: 1%;
+		margin:2px;
+		border:0px;
+	}
+	
+	
+}
+	</style>
+
+</head>
+<body>
+	<div>
+		<img id="img1" src="images/acme-logo.png">
+	</div>
+	<nav>
+	
+	<ul>	
+		<li>HOME</li>
+		<li>ABOUT US</li>
+		<li>CONTACT</li>
+	</ul>
+		<div class="image_center">
+			<img src="images/anvil.png">
+		</div>
+	</nav>
+	<div class="wrapper">
+		<div class="col1">
+			<p class="title">Why ACME?</p>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+		</div>
+		<div class="col2">
+			<p class="title">anvils is not working</p>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+		</div>
+	</div>
+
+</body>
+</html>
